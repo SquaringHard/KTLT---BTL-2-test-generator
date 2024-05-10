@@ -1,0 +1,2 @@
+@InputGen.exe
+@pause
