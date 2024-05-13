@@ -9,7 +9,7 @@ const char nl = '\n';
 
 int main() {
     string s, s1, s2;
-    int no = 1000, a = 0;
+    int no, a = 0; cout << "How many tests? (warning: too many tests may crash the code) "; cin >> no;
     StudyPinkProgram * st = nullptr;
 
     bool diff = 0;
@@ -17,7 +17,7 @@ int main() {
     string sE, sO;
 
     cout << "Processing...\n";
-    cout << "Differences found in tests: ";
+    cout << "Differences found in tests:\n";
 
     for (int test=1; test<=no; test++)
     {
